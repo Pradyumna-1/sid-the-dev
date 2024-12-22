@@ -87,7 +87,7 @@ export default function Contact() {
                   name="message"
                   required
                   className="h-32 w-full resize-none rounded border border-primary-700/70 bg-primary-100/20 py-1 px-3 text-base leading-8 outline-none transition-colors duration-200 ease-in-out focus:ring-1 focus:ring-primary-700/70 dark:border-primary-300/50 dark:bg-primary-300/10 dark:focus:ring-primary-300/50"
-                  defaultValue={'Hello Dhaval,'}
+                  defaultValue={'Hello Siddharth,'}
                 />
               </div>
               <div className="flex w-full justify-end p-2">
@@ -120,9 +120,9 @@ export default function Contact() {
                     classes="inline-block text-lg mr-1 text-primary-700 dark:text-primary-300"
                     icon="bytesize:location"
                   />
-                  Ahmedabad
+                  Hyderabad
                   <br />
-                  Gujarat, India
+                  Telangana, India
                 </p>
                 <div className="flex w-full justify-center">
                   <SocialLinks />
