@@ -65,12 +65,12 @@ export const FRONTEND_SKILLS = [
     icon: 'logos:bootstrap',
     iconClasses: 'text-2xl',
   },
-  {
-    label: 'Styled Components',
-    proficiency: '90%',
-    icon: 'simple-icons:styled-components',
-    iconClasses: 'text-4xl',
-  },
+  // {
+  //   label: 'Styled Components',
+  //   proficiency: '90%',
+  //   icon: 'simple-icons:styled-components',
+  //   iconClasses: 'text-4xl',
+  // },
   {
     label: 'Redux',
     proficiency: '90%',
@@ -83,12 +83,12 @@ export const FRONTEND_SKILLS = [
     icon: 'logos:react-router',
     iconClasses: 'text-xl',
   },
-  {
-    label: 'React Query',
-    proficiency: '90%',
-    icon: 'logos:react-query-icon',
-    iconClasses: 'text-3xl',
-  },
+  // {
+  //   label: 'React Query',
+  //   proficiency: '90%',
+  //   icon: 'logos:react-query-icon',
+  //   iconClasses: 'text-3xl',
+  // },
   {
     label: 'React Hook Form',
     proficiency: '90%',
@@ -116,10 +116,17 @@ export const BACKEND_SKILLS = [
     icon: 'simple-icons:express',
     iconClasses: 'text-3xl',
   },
+
   {
     label: 'REST Api',
     proficiency: '90%',
     icon: 'dashicons:rest-api',
+    iconClasses: 'text-3xl',
+  },
+  {
+    label: 'Java',
+    proficiency: '80%',
+    icon: 'logos:java',
     iconClasses: 'text-3xl',
   },
   // {
@@ -158,17 +165,38 @@ export const BACKEND_SKILLS = [
     icon: 'vscode-icons:file-type-mongo',
     iconClasses: 'text-3xl',
   },
-  // {
-  //   label: 'AWS',
-  //   proficiency: '80%',
-  //   icon: 'logos:aws',
-  //   iconClasses: 'text-xl',
-  // },
+  {
+    label: 'Git',
+    proficiency: '70%',
+    icon: 'logos:git-icon',
+    iconClasses: 'text-3xl',
+  },
   {
     label: 'Github',
     proficiency: '80%',
     icon: 'akar-icons:github-fill',
     iconClasses: 'text-3xl',
+  },
+
+  {
+    label: 'Firebase',
+    proficiency: '90%',
+    icon: 'logos:firebase',
+    iconClasses: 'text-3xl',
+  },
+
+  // {
+  //   label: 'SQL',
+  //   proficiency: '80%',
+  //   icon: 'fluent:sql',
+  //   iconClasses: 'text-xl',
+  // },
+
+  {
+    label: 'PHP',
+    proficiency: '80%',
+    icon: 'logos:php',
+    iconClasses: 'text-xl',
   },
   // {
   //   label: 'Bitbucket',
@@ -182,17 +210,35 @@ export const BACKEND_SKILLS = [
   //   icon: 'logos:docker-icon',
   //   iconClasses: 'text-2xl',
   // },
-  {
-    label: 'Heroku',
-    proficiency: '80%',
-    icon: 'logos:heroku-icon',
-    iconClasses: 'text-2xl',
-  },
+  // {
+  //   label: 'Heroku',
+  //   proficiency: '80%',
+  //   icon: 'logos:heroku-icon',
+  //   iconClasses: 'text-2xl',
+  // },
   {
     label: 'Vercel',
     proficiency: '80%',
     icon: 'logos:vercel-icon',
     iconClasses: 'text-2xl',
+  },
+  {
+    label: 'PostmanAPI',
+    proficiency: '80%',
+    icon: 'simple-icons:postman',
+    iconClasses: 'text-3xl',
+  },
+  {
+    label: 'Linux',
+    proficiency: '60%',
+    icon: 'logos:linux-tux',
+    iconClasses: 'text-3xl',
+  },
+  {
+    label: 'Flask',
+    proficiency: '10%',
+    icon: 'simple-icons:flask',
+    iconClasses: 'text-3xl',
   },
 ];
 
@@ -203,7 +249,7 @@ export const FRONTEND_DESCRIPTIONS = [
 ];
 
 export const BACKEND_DESCRIPTIONS = [
-  'Building RESTful APIs and GraphQL APIs.',
+  'Building RESTful APIs with JSON for data exchange and basic database integration. ',
   'Worked with various Node.js modules and libraries, such as Express to develop full-stack applications.',
-  'good understanding of database design in technologies such as PostgreSQL and MySQL.',
+  'good understanding of database design in technologies such as MongoDB and and JDBC for Java-based databases.',
 ];

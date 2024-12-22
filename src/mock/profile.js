@@ -13,11 +13,11 @@ export const SOCIAL_LINKS = [
   },
 ];
 
-export const HERO_TITLES = ['Pradyumna ', 'Full-Stack Developer', 'MERN Stack Developer'];
+export const HERO_TITLES = ['Pradyumna', 'Full-Stack Developer', 'MERN Stack Developer'];
 
 export const aboutParagraph =
-  'Highly motivated and enthusiastic Full Stack Engineer with experience in designing, developing and maintaining web applications using technologies such as Javascript, SQL, React, Node.js, Java.';
+  'Highly motivated and enthusiastic Full Stack Developer with experience in designing, developing and maintaining web applications using technologies such as Javascript, SQL, React, Node.js, Java.';
 
 export const contactEmail = 'naik.kumarpradyumna@gmail.com';
-
-export const documentTitle = 'Hello I am Pradyumna Kumar Naik | Full Stack Developer ';
+export const contactEmail2 = 'pradyumnakumarnaik1@gmail.com';
+export const documentTitle = 'sid-the-developer';
