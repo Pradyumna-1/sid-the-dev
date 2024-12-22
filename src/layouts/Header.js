@@ -21,10 +21,7 @@ export default function Header({ darkModeEnabled, toggleMode }) {
           animate={{ opacity: 1, scale: 1, x: 0 }}
           transition={{ duration: 2, delay: 0.5 }}
         >
-          <h3
-            className="text-md cursor-pointer font-lato font-semibold tracking-widest md:text-2xl"
-            onClick={jumpToTop}
-          >
+          <h3 className="text-md cursor-pointer font-lato  tracking-widest md:text-2xl" onClick={jumpToTop}>
             &lt;Sid /&gt;
           </h3>
         </motion.div>
@@ -35,15 +32,22 @@ export default function Header({ darkModeEnabled, toggleMode }) {
         >
           <ul className="flex items-center space-x-3">
             <li>
+              <a href="#skills" className="text-sm xs:text-base">
+                Skills
+              </a>
+            </li>
+            <li>
               <a href="#works" className="text-sm xs:text-base">
                 Works
               </a>
             </li>
+
             <li>
               <a href="#contact" className="text-sm xs:text-base">
                 Contact
               </a>
             </li>
+
             <li>
               <button
                 className="rounded-lg p-2.5 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-700"
