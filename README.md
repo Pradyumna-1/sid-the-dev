@@ -157,3 +157,10 @@ If you want to add more, Please don't hesitate to open a [pull request](https://
 
 
 
+
+
+
+
+# EMAIL_SERVICE_ID= service_tvp2jee
+# EMAIL_TEMPLATE_ID= template_zogm94o
+# PUBLIC_KEY= 0ZcJHheFUulzphJHQ

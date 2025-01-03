@@ -20,4 +20,4 @@ export const aboutParagraph =
 
 export const contactEmail = 'naik.kumarpradyumna@gmail.com';
 export const contactEmail2 = 'pradyumnakumarnaik1@gmail.com';
-export const documentTitle = 'sid-the-developer';
+export const documentTitle = 'Prdayumna';
